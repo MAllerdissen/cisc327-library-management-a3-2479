@@ -1,6 +1,7 @@
 # A2_Allerdissen_20402479.md
 **Name:** Martin Allerdissen  
-**Student ID (last 4 digits):** 2479  
+**Student ID (last 4 digits):** 2479
+**Repo Link:** https://github.com/MAllerdissen/cisc327-library-management-a2-2479
 
 ## Complete Function Implementation
 The implementation is completed fully. Finished the missing business logic (R1–R7), added the Patron Status route, page, and nav link, and removed the “Not Yet Implemented” notices. Made sure to enforced validation rules, handled borrow/return flows with availability bounds, and implement fee calculations with clear messages and API responses. The app now meets all requirements end-to-end.
