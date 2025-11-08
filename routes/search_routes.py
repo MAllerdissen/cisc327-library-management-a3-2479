@@ -1,9 +1,10 @@
 """
+routes/search_routes.py
 Search Routes - Book search functionality
 """
 
 from flask import Blueprint, render_template, request
-from library_service import search_books_in_catalog
+from services.library_service import search_books_in_catalog
 
 search_bp = Blueprint('search', __name__)
 

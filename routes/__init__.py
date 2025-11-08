@@ -1,4 +1,5 @@
 """
+routes/__init__.py
 Routes Package - Initialize all route blueprints
 """
 

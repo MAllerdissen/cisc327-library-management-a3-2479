@@ -1,7 +1,7 @@
 # tests/test_r6.py
 import pytest
 from typing import List, Dict
-import library_service
+from services import library_service
 import database
 
 # Helper sample catalog entries that match the database.get_all_books() format.

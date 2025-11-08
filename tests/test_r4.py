@@ -1,7 +1,7 @@
 # tests/test_r4.py
 import pytest
 from datetime import datetime
-import library_service
+from services import library_service
 
 def _make_book(book_id=1, title="Returned Book", author="Author", isbn="1234567890123", total=2, available=1):
     return {

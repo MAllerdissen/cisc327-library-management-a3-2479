@@ -1,6 +1,6 @@
 # tests/test_r1.py
 import pytest
-import library_service
+from services import library_service
 
 def _patch_db(monkeypatch, existing=None, insert_success=True):
     """

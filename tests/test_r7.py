@@ -2,7 +2,7 @@
 import pytest
 from datetime import datetime, timedelta
 from decimal import Decimal
-import library_service
+from services import library_service
 import database
 
 def _borrow_record(book_id: int, title: str, days_ago_borrowed: int, days_until_due: int):

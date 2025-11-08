@@ -1,9 +1,10 @@
 """
+routes/status_routes.py
 Patron Status Routes - Patron status page (R7)
 """
 
 from flask import Blueprint, render_template, request, flash
-from library_service import get_patron_status_report
+from services.library_service import get_patron_status_report
 
 status_bp = Blueprint('status', __name__)
 

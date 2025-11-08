@@ -1,7 +1,7 @@
 # tests/test_r3.py
 import pytest
 from datetime import timedelta
-import library_service
+from services import library_service
 
 def _make_book(book_id=1, title="Book Title", available=1, total=1):
     return {

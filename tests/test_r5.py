@@ -1,7 +1,7 @@
 # tests/test_r5.py
 import pytest
 from datetime import datetime, timedelta
-import library_service
+from services import library_service
 import database
 
 def _make_record_for_book(book_id: int, due_date: datetime):
