@@ -3,10 +3,8 @@
     database.py
     library.db 
     banner.png
+    Dockerfile
     requirements.txt
-    .github/
-        workflows/
-            ci.yaml
     routes/
         __init__.py
         borrowing_routes.py
@@ -26,6 +24,7 @@
         status.html
     tests/
         conftest.py
+        test_e2e.py
         test_library_service_core.py
         test_library_service_payments.py
         test_r1.py
@@ -35,3 +34,6 @@
         test_r5.py
         test_r6.py
         test_r7.py
+    .github/
+        workflows/
+            ci.yaml
